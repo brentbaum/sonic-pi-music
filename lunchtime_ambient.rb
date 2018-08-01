@@ -1,12 +1,4 @@
-# Ambient Experiment
-
-# Coded by Darin Wilson
-#
-# The piece consists of three long loops, each of which
-# plays one of two randomly selected pitches. Each note
-# has different attack, release and sleep values, so that
-# they move in and out of phase with each other. This can
-# play for quite awhile without repeating itself :)
+# Based on Ambient Experiment, by Darin Wilson
 
 use_synth :hollow
 with_fx :reverb, mix: 0.7, room: 0.5 do
